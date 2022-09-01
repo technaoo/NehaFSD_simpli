@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class DisplayingContent {
+	public static void main(String[] args){
+	//Factorial program
+		//3! = 3*2*1 = 6
+		int n;
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter a number?");
+	n = sc.nextInt();
+	int fact_var = 1;
+	for(int i = 1; i <=n; i++)
+	{
+		fact_var = fact_var*i;
+	}
+	System.out.println("Factorial of the number =" +fact_var);
+	
+	}
+
+}

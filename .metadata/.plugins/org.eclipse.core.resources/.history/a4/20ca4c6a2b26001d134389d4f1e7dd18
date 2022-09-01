@@ -1,0 +1,42 @@
+package com.simplilearn1.java;
+
+import java.util.Scanner;
+
+public class Calculator {
+	public static void main(String[] args){
+		
+		int n;
+		int num1 =50;
+		int num2 = 10;
+		//string ch="Null";
+		
+		//user input section
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Select Operation: + - * /");
+		//take user input
+		String ch = sc.nextLine();
+		System.out.println("Operation selected is " +ch);
+		
+		switch(ch) 
+		{
+		
+			case "+":
+				System.out.println("Addition is: "+(num1+num2));
+				break;
+			case "-":
+				System.out.println("Subtraction is: "+(num1-num2));
+				break;
+			case "*":
+				System.out.println("Multiplication is: "+(num1*num2));
+				break;
+			case "/":
+				System.out.println("Division is: "+(num1/num2));
+				break;
+			default:
+				System.out.println("Unrecognised input.\n Please try again!");
+				break;
+		
+		}
+		
+	}
+}

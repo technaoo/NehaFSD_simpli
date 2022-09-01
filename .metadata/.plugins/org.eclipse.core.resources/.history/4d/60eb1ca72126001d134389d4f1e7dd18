@@ -1,0 +1,16 @@
+package com.simplilearn1.java;
+
+import java.util.Scanner;
+
+public class Calculator {
+	public static void main(String[] args){
+		
+		int n;
+		char op;
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Select Operation: + - * %\n");
+		//take user input
+		n = sc.nextInt();
+		
+	}
+}

@@ -1,0 +1,14 @@
+package com.simplilearn.inheritance;
+
+public class B extends A{
+	//super
+	public B() {
+	System.out.println("Child class constructor");
+
+}
+	public static void main(String[] args)
+	{
+		B b = new B();
+		b.print();
+	}
+}

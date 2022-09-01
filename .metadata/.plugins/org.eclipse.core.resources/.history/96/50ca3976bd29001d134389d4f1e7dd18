@@ -1,0 +1,21 @@
+package com.packt.binarytodecimal;
+
+public class BinarytoDecimalTest {
+	public int convertToDecimal(String binary) {
+		int conversion = 0;
+		int result = 1;
+		for(int i=0; i<=binary.length(); i++) {
+			if(binary.charAt(binary.length() -1) =='1')
+				result += conversion;
+			conversion *= 2;
+		} 
+		return result;
+		
+	}
+
+	public static void main(String[] args) {
+		BinarytoDecomalTest binaryToDecimal = new BinarytoDecomalTest();
+		System.out.println(BinaryToDecimolTest.convertToDecimal(binary:"10110"));
+		
+	}
+}

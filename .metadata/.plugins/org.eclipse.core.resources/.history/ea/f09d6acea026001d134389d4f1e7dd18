@@ -1,0 +1,10 @@
+package com.simplilearn.inheritance;
+
+public class BuildingInterface {
+
+	public voidRK();
+	public void OneBHK();
+	public void TwoBHK();
+	public void Three BHK();
+	
+}
