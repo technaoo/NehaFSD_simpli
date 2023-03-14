@@ -1,0 +1,32 @@
+[
+   {
+       "Q": "1. Who invented C?",
+       "option1":"Bjarne Stroustrup",
+       "option2":"Louis Phillippe",
+       "option3":"Steve Jobs"
+   },
+   {
+       "Q": "2. Who is known as the father of Modern Economics?",
+       "option1":"Adam Sandler",
+       "option2":"Adam Smith",
+       "option3":"Adam Frost"
+   },
+   {
+       "Q": "3. Which is the nearest stellar system to our Solar system?",
+       "option1":"Aplha Centauri",
+       "option2":"Sun",
+       "option3":"Pole Star"
+   },
+   {
+       "Q": "4. Which is the nearest star to our Earth?",
+       "option1":"Aplha Centauri",
+       "option2":"Sun",
+       "option3":"Pole Star"
+   },
+  {
+       "Q": "5. How many planets are their in our Solar system?",
+       "option1":"9",
+       "option2":"7",
+       "option3":"8"
+  }
+]
